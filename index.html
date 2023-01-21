@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link data-n-head="ssr" rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+
+    <link data-n-head="ssr" type="font/woff2" rel="preload" href="./assets/webkit-font/neue-montreal-regular.woff2" as="font" crossorigin="anonymous">
+    <link data-n-head="ssr" type="font/woff2" rel="preload" href="./assets/webkit-font/neue-montreal-medium.woff2" as="font" crossorigin="anonymous">
+    <link data-n-head="ssr" type="font/woff2" rel="preload" href="./assets/webkit-font/rza-regular.woff2" as="font" crossorigin="anonymous">
+    
+
+    <title>Upwork V2.0</title>
+</head>
+<body>
+    
+    <div class="header flex">
+        <div class="left-section flex">
+            <div class="nav-container flex">
+                <a href="#" class="company-logo">
+                    <img src="/assets/asset_ 29-svg.png" alt="company logo">
+        
+                </a>
+                <!--Logo end-->
+
+                <div class="nav-links" id="nav-links">
+                    <ul class="flex">
+                        <li><a href="#" class="hover-link">
+                            <select class="hover-link" name="search-option">
+                                <option class="" value="jobs">Find Work</option>
+                                <option value="jobs">obs</option>
+                            </select>
+                        </a></li>
+                        <li><a href="#" class="hover-link">
+                            <select class="hover-link" name="search-option">
+                                <option class="" value="jobs">My Jobs</option>
+                                <option value="jobs">All</option>
+                            </select>
+                        </a></li>
+                        <li><a href="#" class="hover-link">
+                            <select class="hover-link" name="search-option">
+                                <option class="" value="jobs">Reports</option>
+                                <option value="jobs">Reports</option>
+                            </select>
+                        </a></li>
+                        <li><a href="#" class="hover-link">Messages</a></li>
+                    </ul>
+        
+                </div>
+             </div>   
+             
+        </div>
+    <!--nav end-->
+            <div class="right-section flex">
+                <div class="search-bar-container">
+                    <button class="search-btn-left"><a href="">
+                        <img src="./assets/asset_ 36-svg.png" alt="search">
+                    </a></button>
+                    <input type="text" name="searchbar" placeholder="Search" id="search-bar">
+                <select id="search-option" name="search-option" class="search-option">
+                    <option value="jobs">Jobs</option>
+                    <option value="talent">Talent</option>
+                    <option value="projects">Projects</option>
+                </select>
+                </div>
+                    <!--header search end-->
+                <div class="profile-section flex">
+                    <a href="#">
+                        <img src="assets/question.svg" alt="Help" id="profile-group-icon">
+                    </a>
+        
+                    <a href="#">
+                        <img src="assets/kite.svg" alt="Direct Contacts" id="profile-group-icon">
+                    </a>
+        
+                    <a href="#">
+                        <img src="assets/alert.svg" alt="Notification" id="profile-group-icon">
+                    </a>
+        
+                    <a href="#">
+                        <img src="assets/asset_ 1.jpg" alt="Profile" id="profile-photo">
+                    </a>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    <!-- Header End and Main Start-->
+
+
+
+    <Main class="container main">
+
+        <div class="col-body">
+            <div class="annoucement-section flex">
+                <div class="announce-left-section">
+                    <p>Wednesday, January 18th</p>
+                <span>Good Morning, Nazira Akter C.</span>
+                </div>
+                <div class="announce-right-section">
+                    <img src="./assets/graphic-symbol.png" alt="">
+                </div>
+
+            </div>
+
+            <!--Announce section end and search start-->
+
+            <div class="job-search-section flex">
+                <input class="search-bar-2" type="text" placeholder="Search for job">
+                <button class="search-bar-2-btn"><a href="#"><img src="./assets/asset_ 36-svg.png" alt=""></a></button>
+            </div>
+
+            <div class="jobs-you-might-container">
+                <div class="jobs-you-might-section flex">
+                    <p class="jobs-like-heading">Jobs you might like</p>
+                    <button class="three-dot flex">...</button>
+                </div>
+                
+                <div class="tab-three">
+                    <button type="button" role="tab" class="button-tab active" id="button-tab-1st">
+                        Best Matches
+                    </button>
+                    <button type="button" role="tab"  class="button-tab">
+                        Most Recent
+                    </button>
+                    <button type="button" role="tab"  class="button-tab">
+                        Saved Jobs
+                    </button>
+                </div>
+                
+                
+            </div>
+            <div class="brows-job-para">
+                Browse jobs that match your experience to a client's hiring preferences. Ordered by most relevant.
+            </div>
+
+            <!-- brows job end, jobs item start-->
+            <div class="jobs-item-card">
+                <div class="job-heading-section flex">
+                    <div class="job-heading"><P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. URGENT</P></div>
+                    <div class="save-and-like flex">
+                        <button><img src="./assets/asset-thumbsdown.svg" alt=""></button>
+                        <button><img src="./assets/asset-save.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="price-time-frame">
+                    <small><strong>Fixed-price</strong> - Intermediate<span> - Est. Budget: </span><span>$10</span><span> - Posted 12 hours ago</span></small>
+                </div>
+                <div class="job-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis doloribus dolorem iusto aut excepturi dolorum pariatur repudiandae earum id a 
+                    distinctio unde quam modi praesentium, rerum sapiente magnam natus, vitae consequatur? 
+                    Sunt aspernatur porro eos aperiam illo, quae tempora officiis nulla quis..</p>
+                    <a href="#">more</a>
+                </div>
+                <div class="up-skill-wrapper flex">
+                    <a href="#">Skills 01</a>
+                    <a href="#">Skills 02</a>
+                    <a href="#">Skills 03</a>
+                    <a href="#">Skills 04</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills</a>
+                    
+                    <div class="scroll-left-right flex"><span><img src="./assets/asset_ 13-svg.png" alt=""></span>
+                    </div>
+                </div>
+                
+                
+                <div>
+                    <small>
+                        <span class="strong">Proposals</span>
+                        <strong>50+</strong>
+                    </small>
+                </div>
+                <div class="client-badge-line flex">
+                    <div class="payment-meth">
+                        <img src="./assets/asset_ 35-svg.png" alt="">
+                        <span>Payment verified</span></div>
+                    <div class="start-rating">
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="total-spent">
+                        $4k+<span> spent</span>
+                    </div>
+                    <div class="location">
+                        <img src="./assets/asset_ 11-svg.png" alt="">
+                        <span>United States</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="jobs-item-card">
+                <div class="job-heading-section flex">
+                    <div class="job-heading"><P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. URGENT</P></div>
+                    <div class="save-and-like flex">
+                        <button><img src="./assets/asset-thumbsdown.svg" alt=""></button>
+                        <button><img src="./assets/asset-save.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="price-time-frame">
+                    <small><strong>Fixed-price</strong> - Intermediate<span> - Est. Budget: </span><span>$10</span><span> - Posted 12 hours ago</span></small>
+                </div>
+                <div class="job-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis doloribus dolorem iusto aut excepturi dolorum pariatur repudiandae earum id a 
+                    distinctio unde quam modi praesentium, rerum sapiente magnam natus, vitae consequatur? 
+                    Sunt aspernatur porro eos aperiam illo, quae tempora officiis nulla quis..</p>
+                    <a href="#">more</a>
+                </div>
+                <div class="up-skill-wrapper flex">
+                    <a href="#">Skills 01</a>
+                    <a href="#">Skills 02</a>
+                    <a href="#">Skills 03</a>
+                    <a href="#">Skills 04</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills</a>
+                    
+                    <div class="scroll-left-right flex"><span><img src="./assets/asset_ 13-svg.png" alt=""></span>
+                    </div>
+                </div>
+                
+                
+                <div>
+                    <small>
+                        <span class="strong">Proposals</span>
+                        <strong>50+</strong>
+                    </small>
+                </div>
+                <div class="client-badge-line flex">
+                    <div class="payment-meth">
+                        <img src="./assets/asset_ 35-svg.png" alt="">
+                        <span>Payment verified</span></div>
+                    <div class="start-rating">
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="total-spent">
+                        $4k+<span> spent</span>
+                    </div>
+                    <div class="location">
+                        <img src="./assets/asset_ 11-svg.png" alt="">
+                        <span>United States</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="jobs-item-card">
+                <div class="job-heading-section flex">
+                    <div class="job-heading"><P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. URGENT</P></div>
+                    <div class="save-and-like flex">
+                        <button><img src="./assets/asset-thumbsdown.svg" alt=""></button>
+                        <button><img src="./assets/asset-save.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="price-time-frame">
+                    <small><strong>Fixed-price</strong> - Intermediate<span> - Est. Budget: </span><span>$10</span><span> - Posted 12 hours ago</span></small>
+                </div>
+                <div class="job-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis doloribus dolorem iusto aut excepturi dolorum pariatur repudiandae earum id a 
+                    distinctio unde quam modi praesentium, rerum sapiente magnam natus, vitae consequatur? 
+                    Sunt aspernatur porro eos aperiam illo, quae tempora officiis nulla quis..</p>
+                    <a href="#">more</a>
+                </div>
+                <div class="up-skill-wrapper flex">
+                    <a href="#">Skills 01</a>
+                    <a href="#">Skills 02</a>
+                    <a href="#">Skills 03</a>
+                    <a href="#">Skills 04</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills</a>
+                    
+                    <div class="scroll-left-right flex"><span><img src="./assets/asset_ 13-svg.png" alt=""></span>
+                    </div>
+                </div>
+                
+                
+                <div>
+                    <small>
+                        <span class="strong">Proposals</span>
+                        <strong>50+</strong>
+                    </small>
+                </div>
+                <div class="client-badge-line flex">
+                    <div class="payment-meth">
+                        <img src="./assets/asset_ 35-svg.png" alt="">
+                        <span>Payment verified</span></div>
+                    <div class="start-rating">
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="total-spent">
+                        $4k+<span> spent</span>
+                    </div>
+                    <div class="location">
+                        <img src="./assets/asset_ 11-svg.png" alt="">
+                        <span>United States</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="jobs-item-card">
+                <div class="job-heading-section flex">
+                    <div class="job-heading"><P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. URGENT</P></div>
+                    <div class="save-and-like flex">
+                        <button><img src="./assets/asset-thumbsdown.svg" alt=""></button>
+                        <button><img src="./assets/asset-save.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="price-time-frame">
+                    <small><strong>Fixed-price</strong> - Intermediate<span> - Est. Budget: </span><span>$10</span><span> - Posted 12 hours ago</span></small>
+                </div>
+                <div class="job-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis doloribus dolorem iusto aut excepturi dolorum pariatur repudiandae earum id a 
+                    distinctio unde quam modi praesentium, rerum sapiente magnam natus, vitae consequatur? 
+                    Sunt aspernatur porro eos aperiam illo, quae tempora officiis nulla quis..</p>
+                    <a href="#">more</a>
+                </div>
+                <div class="up-skill-wrapper flex">
+                    <a href="#">Skills 01</a>
+                    <a href="#">Skills 02</a>
+                    <a href="#">Skills 03</a>
+                    <a href="#">Skills 04</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills</a>
+                    
+                    <div class="scroll-left-right flex"><span><img src="./assets/asset_ 13-svg.png" alt=""></span>
+                    </div>
+                </div>
+                
+                
+                <div>
+                    <small>
+                        <span class="strong">Proposals</span>
+                        <strong>50+</strong>
+                    </small>
+                </div>
+                <div class="client-badge-line flex">
+                    <div class="payment-meth">
+                        <img src="./assets/asset_ 35-svg.png" alt="">
+                        <span>Payment verified</span></div>
+                    <div class="start-rating">
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="total-spent">
+                        $4k+<span> spent</span>
+                    </div>
+                    <div class="location">
+                        <img src="./assets/asset_ 11-svg.png" alt="">
+                        <span>United States</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="jobs-item-card">
+                <div class="job-heading-section flex">
+                    <div class="job-heading"><P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. URGENT</P></div>
+                    <div class="save-and-like flex">
+                        <button><img src="./assets/asset-thumbsdown.svg" alt=""></button>
+                        <button><img src="./assets/asset-save.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="price-time-frame">
+                    <small><strong>Fixed-price</strong> - Intermediate<span> - Est. Budget: </span><span>$10</span><span> - Posted 12 hours ago</span></small>
+                </div>
+                <div class="job-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis doloribus dolorem iusto aut excepturi dolorum pariatur repudiandae earum id a 
+                    distinctio unde quam modi praesentium, rerum sapiente magnam natus, vitae consequatur? 
+                    Sunt aspernatur porro eos aperiam illo, quae tempora officiis nulla quis..</p>
+                    <a href="#">more</a>
+                </div>
+                <div class="up-skill-wrapper flex">
+                    <a href="#">Skills 01</a>
+                    <a href="#">Skills 02</a>
+                    <a href="#">Skills 03</a>
+                    <a href="#">Skills 04</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills</a>
+                    
+                    <div class="scroll-left-right flex"><span><img src="./assets/asset_ 13-svg.png" alt=""></span>
+                    </div>
+                </div>
+                
+                
+                <div>
+                    <small>
+                        <span class="strong">Proposals</span>
+                        <strong>50+</strong>
+                    </small>
+                </div>
+                <div class="client-badge-line flex">
+                    <div class="payment-meth">
+                        <img src="./assets/asset_ 35-svg.png" alt="">
+                        <span>Payment verified</span></div>
+                    <div class="start-rating">
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="total-spent">
+                        $4k+<span> spent</span>
+                    </div>
+                    <div class="location">
+                        <img src="./assets/asset_ 11-svg.png" alt="">
+                        <span>United States</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="jobs-item-card">
+                <div class="job-heading-section flex">
+                    <div class="job-heading"><P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. URGENT</P></div>
+                    <div class="save-and-like flex">
+                        <button><img src="./assets/asset-thumbsdown.svg" alt=""></button>
+                        <button><img src="./assets/asset-save.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="price-time-frame">
+                    <small><strong>Fixed-price</strong> - Intermediate<span> - Est. Budget: </span><span>$10</span><span> - Posted 12 hours ago</span></small>
+                </div>
+                <div class="job-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis doloribus dolorem iusto aut excepturi dolorum pariatur repudiandae earum id a 
+                    distinctio unde quam modi praesentium, rerum sapiente magnam natus, vitae consequatur? 
+                    Sunt aspernatur porro eos aperiam illo, quae tempora officiis nulla quis..</p>
+                    <a href="#">more</a>
+                </div>
+                <div class="up-skill-wrapper flex">
+                    <a href="#">Skills 01</a>
+                    <a href="#">Skills 02</a>
+                    <a href="#">Skills 03</a>
+                    <a href="#">Skills 04</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills</a>
+                    
+                    <div class="scroll-left-right flex"><span><img src="./assets/asset_ 13-svg.png" alt=""></span>
+                    </div>
+                </div>
+                
+                
+                <div>
+                    <small>
+                        <span class="strong">Proposals</span>
+                        <strong>50+</strong>
+                    </small>
+                </div>
+                <div class="client-badge-line flex">
+                    <div class="payment-meth">
+                        <img src="./assets/asset_ 35-svg.png" alt="">
+                        <span>Payment verified</span></div>
+                    <div class="start-rating">
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="total-spent">
+                        $4k+<span> spent</span>
+                    </div>
+                    <div class="location">
+                        <img src="./assets/asset_ 11-svg.png" alt="">
+                        <span>United States</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="jobs-item-card">
+                <div class="job-heading-section flex">
+                    <div class="job-heading"><P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. URGENT</P></div>
+                    <div class="save-and-like flex">
+                        <button><img src="./assets/asset-thumbsdown.svg" alt=""></button>
+                        <button><img src="./assets/asset-save.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="price-time-frame">
+                    <small><strong>Fixed-price</strong> - Intermediate<span> - Est. Budget: </span><span>$10</span><span> - Posted 12 hours ago</span></small>
+                </div>
+                <div class="job-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis doloribus dolorem iusto aut excepturi dolorum pariatur repudiandae earum id a 
+                    distinctio unde quam modi praesentium, rerum sapiente magnam natus, vitae consequatur? 
+                    Sunt aspernatur porro eos aperiam illo, quae tempora officiis nulla quis..</p>
+                    <a href="#">more</a>
+                </div>
+                <div class="up-skill-wrapper flex">
+                    <a href="#">Skills 01</a>
+                    <a href="#">Skills 02</a>
+                    <a href="#">Skills 03</a>
+                    <a href="#">Skills 04</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills</a>
+                    
+                    <div class="scroll-left-right flex"><span><img src="./assets/asset_ 13-svg.png" alt=""></span>
+                    </div>
+                </div>
+                
+                
+                <div>
+                    <small>
+                        <span class="strong">Proposals</span>
+                        <strong>50+</strong>
+                    </small>
+                </div>
+                <div class="client-badge-line flex">
+                    <div class="payment-meth">
+                        <img src="./assets/asset_ 35-svg.png" alt="">
+                        <span>Payment verified</span></div>
+                    <div class="start-rating">
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="total-spent">
+                        $4k+<span> spent</span>
+                    </div>
+                    <div class="location">
+                        <img src="./assets/asset_ 11-svg.png" alt="">
+                        <span>United States</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="jobs-item-card">
+                <div class="job-heading-section flex">
+                    <div class="job-heading"><P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. URGENT</P></div>
+                    <div class="save-and-like flex">
+                        <button><img src="./assets/asset-thumbsdown.svg" alt=""></button>
+                        <button><img src="./assets/asset-save.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="price-time-frame">
+                    <small><strong>Fixed-price</strong> - Intermediate<span> - Est. Budget: </span><span>$10</span><span> - Posted 12 hours ago</span></small>
+                </div>
+                <div class="job-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis doloribus dolorem iusto aut excepturi dolorum pariatur repudiandae earum id a 
+                    distinctio unde quam modi praesentium, rerum sapiente magnam natus, vitae consequatur? 
+                    Sunt aspernatur porro eos aperiam illo, quae tempora officiis nulla quis..</p>
+                    <a href="#">more</a>
+                </div>
+                <div class="up-skill-wrapper flex">
+                    <a href="#">Skills 01</a>
+                    <a href="#">Skills 02</a>
+                    <a href="#">Skills 03</a>
+                    <a href="#">Skills 04</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills</a>
+                    
+                    <div class="scroll-left-right flex"><span><img src="./assets/asset_ 13-svg.png" alt=""></span>
+                    </div>
+                </div>
+                
+                
+                <div>
+                    <small>
+                        <span class="strong">Proposals</span>
+                        <strong>50+</strong>
+                    </small>
+                </div>
+                <div class="client-badge-line flex">
+                    <div class="payment-meth">
+                        <img src="./assets/asset_ 35-svg.png" alt="">
+                        <span>Payment verified</span></div>
+                    <div class="start-rating">
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="total-spent">
+                        $4k+<span> spent</span>
+                    </div>
+                    <div class="location">
+                        <img src="./assets/asset_ 11-svg.png" alt="">
+                        <span>United States</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="jobs-item-card">
+                <div class="job-heading-section flex">
+                    <div class="job-heading"><P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. URGENT</P></div>
+                    <div class="save-and-like flex">
+                        <button><img src="./assets/asset-thumbsdown.svg" alt=""></button>
+                        <button><img src="./assets/asset-save.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="price-time-frame">
+                    <small><strong>Fixed-price</strong> - Intermediate<span> - Est. Budget: </span><span>$10</span><span> - Posted 12 hours ago</span></small>
+                </div>
+                <div class="job-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis doloribus dolorem iusto aut excepturi dolorum pariatur repudiandae earum id a 
+                    distinctio unde quam modi praesentium, rerum sapiente magnam natus, vitae consequatur? 
+                    Sunt aspernatur porro eos aperiam illo, quae tempora officiis nulla quis..</p>
+                    <a href="#">more</a>
+                </div>
+                <div class="up-skill-wrapper flex">
+                    <a href="#">Skills 01</a>
+                    <a href="#">Skills 02</a>
+                    <a href="#">Skills 03</a>
+                    <a href="#">Skills 04</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills</a>
+                    
+                    <div class="scroll-left-right flex"><span><img src="./assets/asset_ 13-svg.png" alt=""></span>
+                    </div>
+                </div>
+                
+                
+                <div>
+                    <small>
+                        <span class="strong">Proposals</span>
+                        <strong>50+</strong>
+                    </small>
+                </div>
+                <div class="client-badge-line flex">
+                    <div class="payment-meth">
+                        <img src="./assets/asset_ 35-svg.png" alt="">
+                        <span>Payment verified</span></div>
+                    <div class="start-rating">
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="total-spent">
+                        $4k+<span> spent</span>
+                    </div>
+                    <div class="location">
+                        <img src="./assets/asset_ 11-svg.png" alt="">
+                        <span>United States</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="jobs-item-card">
+                <div class="job-heading-section flex">
+                    <div class="job-heading"><P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. URGENT</P></div>
+                    <div class="save-and-like flex">
+                        <button><img src="./assets/asset-thumbsdown.svg" alt=""></button>
+                        <button><img src="./assets/asset-save.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="price-time-frame">
+                    <small><strong>Fixed-price</strong> - Intermediate<span> - Est. Budget: </span><span>$10</span><span> - Posted 12 hours ago</span></small>
+                </div>
+                <div class="job-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis doloribus dolorem iusto aut excepturi dolorum pariatur repudiandae earum id a 
+                    distinctio unde quam modi praesentium, rerum sapiente magnam natus, vitae consequatur? 
+                    Sunt aspernatur porro eos aperiam illo, quae tempora officiis nulla quis..</p>
+                    <a href="#">more</a>
+                </div>
+                <div class="up-skill-wrapper flex">
+                    <a href="#">Skills 01</a>
+                    <a href="#">Skills 02</a>
+                    <a href="#">Skills 03</a>
+                    <a href="#">Skills 04</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills 05</a>
+                    <a href="#">Skills</a>
+                    
+                    <div class="scroll-left-right flex"><span><img src="./assets/asset_ 13-svg.png" alt=""></span>
+                    </div>
+                </div>
+                
+                
+                <div>
+                    <small>
+                        <span class="strong">Proposals</span>
+                        <strong>50+</strong>
+                    </small>
+                </div>
+                <div class="client-badge-line flex">
+                    <div class="payment-meth">
+                        <img src="./assets/asset_ 35-svg.png" alt="">
+                        <span>Payment verified</span></div>
+                    <div class="start-rating">
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star rating-checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="total-spent">
+                        $4k+<span> spent</span>
+                    </div>
+                    <div class="location">
+                        <img src="./assets/asset_ 11-svg.png" alt="">
+                        <span>United States</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- job card end, load more section start-->
+
+            <div class="load-more-container flex">
+                <button>Load More Jobs</button>
+            </div>
+
+
+
+
+        </div>
+
+        <!-- column body end and colum asid start-->
+
+        <div class="aside-col">
+
+            <div class="aside-profile-section flex">
+                <div class="profile-img">
+                    <a href=""><img src="./assets/asset_ 1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="name-and-title flex">
+                    <a href="#">
+                        <p class="profile-name">Nazira Aker C.</p>
+                    </a>
+                    <p class="profle-title">Research | Consumer Analyst</p>
+                </div>
+            </div>
+            <!-- profile section end and completeness start-->
+
+            <div class="profile-completeness">
+                <label for="progress-label">Profile Completeness: </label>
+                <div class="profile-completeness-bar flex">
+                    <progress id="progress" value="80" max="100"></progress><p>80%</p>
+                </div>
+            </div>
+
+            <!-- Availability of profile start-->
+
+            <div class="availability-section">
+
+                <div class="availability-badge">
+                    <div class="upper-availability flex">
+                        <p>Availability Badge</p>
+                        <a href="#"><img src="./assets/asset_ 2-svg.png" alt=""></a>
+                    </div>
+                    <div class="bottom-section flex">
+                        <span><img src="./assets/accessibility.svg" alt="">Available now</span>
+                        <p>off</p>
+                    </div>
+                </div>
+
+                <div class="hours-per-week">
+
+                    <div class="upper-hours-per-week flex">
+                        <p>Hours per week</p><a class="edit" href="#">
+                            <img src="./assets/asset_ 2-svg.png" alt=""></a></div>
+                    <div class="lower-hours-per-week">
+                        <p>As Needed - Open to Offers</p>
+                    </div>
+
+                   
+
+
+                </div>
+
+
+                <div class="profile-visibility-con">
+                    <div class="profile-visibility-head flex">
+                        <p>Profile Visibility</p>
+                        <a href="#"><img src="./assets/asset_ 2-svg.png" alt=""></a>
+
+                    </div>
+
+                    <div class="job-preferece">
+                        <span>Public</span>
+                        
+                    </div>
+
+                </div>
+
+                <div class="jobpreference-con">
+                    <div class="job-preferece-container flex">
+                        <p>Job Preference</p>
+                        <a href="#"><img src="./assets/asset_ 2-svg.png" alt=""></a>
+                    </div>
+                    <div class="job-preference2">
+                        <span>Open to contract-to-hire roles</span>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <!-- my category start-->
+
+            <div class="my-category-container">
+
+                <div class="category-head flex">
+                    <p>My Category</p>
+                    <a href="#"><img src="./assets/asset_ 2-svg.png" alt=""></a>
+
+                </div>
+                <div class="category-list flex">
+                    <a href="#">Category one</a>
+                    <a href="#">Category one</a>
+                    <a href="#">Category one</a>
+                    <a href="#">Category one</a>
+                </div>
+
+
+
+            </div>
+
+            <!-- my category end, proposal start-->
+
+            <div class="my-proposal-container flex">
+                <div class="my-proposal"><P>Proposals</P>
+                    <a href="#">My Proposals</a></div>
+                <div class="proposal-submitted-">
+                    <a href="#">
+                        2 submitted Proposals
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="project-catalog-container">
+                <div class="catalog-upper">
+                    <p>Project Catalog</p>
+                    <a href="#">My Project Dashboard</a>
+                </div>
+                <div class="catalog-lower">
+                    <p><a href="#">Create a Catalog project</a> for clients to purchase instantly</p>
+                </div>
+            </div>
+            <!-- project catalog start-->
+
+            <div class="sidebar-link-container flex">
+                <a href="#">Upwork Academy <img src="./assets/asset_ 13-svg.png" alt=""></a>
+                <a href="#">Direct Contracts <img src="./assets/asset_ 13-svg.png" alt=""></a>
+                <a href="#">Get Paid <img src="./assets/asset_ 13-svg.png" alt=""></a>
+                <a href="#">Community & Forums <img src="./assets/asset_ 13-svg.png" alt=""></a>
+                <a href="#">Help Center <img src="./assets/asset_ 13-svg.png" alt=""></a>
+            </div>
+
+
+        </div>
+
+    </Main>
+
+    <!-- Main body End-->
+
+    <footer class="footer-container">
+
+        <div class="container footer-section">
+            <div class="footer-list-link flex">
+            <div class="company-link flex">
+                <a href="#">About Us</a>
+                <a href="#">Feedback</a>
+                <a href="#">Community</a>
+            </div>
+            <div class="company-link flex">
+                <a href="#">Trust, Safety & Security</a>
+                <a href="#">Help & Support</a>
+                <a href="#">Upwork Foundation</a>
+            </div>
+            <div class="company-link flex">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">CA Notice at Collection</a>
+                <a href="#">Cookie Settings</a>
+            </div>
+            <div class="company-link flex">
+                <a href="#">Accessibility</a>
+                <a href="#">Dekstop App</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Enterprise Solution</a>
+            </div>
+        </div>
+
+        <div class="footer-social-icons flex">
+            <div class="social-left flex">
+                <p>Follow Us</p>
+                <a href="#"><img src="./assets/asset_ 3-svg.png" alt=""></a>
+                <a href="#"><img src="./assets/asset_ 5-svg.png" alt=""></a>
+                <a href="#"><img src="./assets/asset_ 4-svg.png" alt=""></a>
+                <a href="#"><img src="./assets/asset_ 34-svg.png" alt=""></a>
+                <a href="#"><img src="./assets/asset_ 33-svg.png" alt=""></a>
+            </div>
+            <div class="social-right flex">
+                <p>Mobile App</p>
+                <a href="#"><img src="./assets/asset_ 32-svg.png" alt=""></a>
+                <a href="#"><img src="./assets/asset_ 10-svg.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer-copyright flex">
+            <p>© 2015 - 2023 Upwork® Global Inc.
+                
+            </p></div>
+
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+</html>
